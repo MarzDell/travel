@@ -6,13 +6,31 @@
 
 }
 
+h1{
+    text-align: center;
+    font-size: 100px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+header{
+    position: absolute;
+    margin-left:1100px;
+    margin-top: 500px;
+    font-size: 20px;
+    font-style: italic;
+    font-stretch: normal;
+    color: red;
+    
+    
+}
 
 .main1 {
-    position:fixed;
-    size: landscape;
-    font-size: medium;
+    position:relative;
+    
     margin: 0;
     padding: 0;
+    z-index: -1;
     
 }
  
