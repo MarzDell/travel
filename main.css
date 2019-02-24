@@ -1,0 +1,30 @@
+.panel{
+    background-color: #f3f4f2;
+    top: 0;
+    left: 0;
+    right:0;
+
+}
+
+
+.main1 {
+    position:fixed;
+    size: landscape;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+button{
+    border:none;
+    background-color: #0997d3;
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    text-transform: none;
+    cursor: pointer;
+    
+}   
+    
+
