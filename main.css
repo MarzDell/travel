@@ -165,19 +165,40 @@ footer{
 }
 
 @media (max-width:600px){
-    .box{
-        width:100%;
-        float:none;
-    }
-    .box2{
-       width:100%;
-        float:none; 
-    }
-    .footer{
-        width:100%;
-        float:none;
+    .cont{
+        background-size: 170%;
+        background-position: center;
     }
 }
 
+@media (max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 600px){
+    .contact{
+        width:100%;
+       text-align: center;
+        float:none;
+        padding-top: 20px;
+        font-size:15px;
+        padding-left: 0;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:600px){
+    .followus{
+       width:100%;
+        
+        float:none; 
+        padding-top: 20px;
+        font-size:15px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
 
 
