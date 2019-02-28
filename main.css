@@ -1,9 +1,7 @@
 body{
-    margin:0 0;
-    padding:0 0;
-    
+    margin: auto;
+    padding: 0;
 }
-
 .cont {
     background-image: url(http://www.alovelyplanet.com/wp-content/uploads/2015/12/2015-12-19-11.07.22-1.jpg);
     background-size: 100% auto;
@@ -11,6 +9,18 @@ body{
     
 }
 
+.crl{
+    clear:both;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
 
 #main-navbar{
   background-color: #bfbfbf;
@@ -46,10 +56,6 @@ body{
 }
 
 
-#main-navbar a:hover{
-   color:black;
-}
-
 h1{
     text-align: center;
     font-size: 40px;
@@ -76,17 +82,26 @@ footer{
 }
 
 .contact{
-    text-align: left;
-    line-height: 3px;
-    margin:5px;
-    padding:5px;
+    float:left;
+    width:30%;
+    margin-left:20px;
+    line-height: 1px;
+
+    
 }
 
+
 .followus{
-    text-align: right;
+    float:right;
+    width:60%;
+    text-align: center;
+    text-decoration: none;
+    
     
     
 }
 .copy{
-    text-align: center;
+   text-align: center;
+    
+    
 }
