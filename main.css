@@ -202,3 +202,36 @@ footer{
 }
 
 
+.bg-modal{
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.modal{
+    width:500px;
+    height:300px;
+    background-color:white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    
+}
+
+input{
+    width:50%;
+    display: block;
+    margin:11px auto;
+    
+}
+
+.close{
+   position: absolute;
+  top:0;
+}
